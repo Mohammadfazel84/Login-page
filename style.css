@@ -1,0 +1,63 @@
+body{
+    background-color: #1e1e1e;
+    display: block;
+}
+header{
+    background-color: rgb(53, 52, 52);
+    text-align: center;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#info{
+    text-align: left;
+}
+#line{
+    width: 60%;
+    height: 2px;
+    background: #666666;
+    margin-top: 1%;
+    margin-bottom: 1.5%;
+}
+#forgot_pass{
+    display: flex;
+    justify-content: right;
+}
+form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+input{
+    color: aliceblue;
+    background-color: #1e1e1e;
+    font-size: medium;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+    border: 2px solid rgba(255,255,255,.2);
+    width: 60%;
+    height: 7.5%;
+    padding: 1%;
+    margin-top: 1%;
+    border:2px rgba(202, 202, 202, 0.274) solid;
+    border-radius:25px;
+}
+img{
+    width: 10%;
+}
+a{
+    color: orange;
+    width: fit-content;
+    text-decoration:none;
+    margin-top: 1%;
+}
+a:hover{
+    color: aqua;
+}
+footer
+{
+    text-align: left;
+    color: aliceblue;
+    background-color: rgb(20, 20, 20);
+    margin-top: 5%;
+}
